@@ -12,7 +12,7 @@ function App() {
             <div className='app'>
                 <Header />
                 <Routes>
-                <Route path='/' exact element={<NotesListPage />}  />
+                <Route path='/' element={<NotesListPage />}  />
                 <Route path='/note/:id' element={<NotePage />} />
                 <Route path="*" element={ <main style={{ padding: "1rem" }}>
                                             <p>There's nothing here!</p>
